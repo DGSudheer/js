@@ -59,3 +59,18 @@ console.log(add(1));
 console.log(add(1,'a'));
 //let y = ;
 console.log(add(1,2));
+
+
+
+function arrmap(arr){
+    arr.push(5);
+    arr=[1];
+    return arr;
+}
+let l = [1,2,3,4]
+arrmap(l);
+console.log(l);
+
+res = arrmap(l);
+console.log(res);
+
